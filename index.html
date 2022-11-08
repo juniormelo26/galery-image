@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="gallery">
+            <div class="image"><span><img src="images/img-1.jpg" alt=""></span></div>
+            <div class="image"><span><img src="images/img-2.jpg" alt=""></span></div>
+            <div class="image"><span><img src="images/img-3.jpg" alt=""></span></div>
+            <div class="image"><span><img src="images/img-4.jpg" alt=""></span></div>
+            <div class="image"><span><img src="images/img-5.jpg" alt=""></span></div>
+            <div class="image"><span><img src="images/img-6.jpg" alt=""></span></div>
+        </div>
+    </div>
+
+    <div class="preview-box">
+        <div class="details">
+            <span class="title">
+                Imagem <p class="current-img"></p>
+                de <p class="total-img"></p>
+            </span>
+            <span class="icon bx bx-x"></span>
+        </div>
+        <div class="img-box">
+            <div class="slide prev">
+                <i class='bx bx-chevron-left'></i>
+            </div>
+            <div class="slide next">
+                <i class='bx bx-chevron-right'></i>
+            </div>
+            <img src="" alt="Imagens da Galeria" >
+        </div>
+        <div class="counter-img">
+            <p class="img-current"></p>de
+            <p class="img-total"></p>
+        </div>
+    </div>
+    <div class="shadow"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
